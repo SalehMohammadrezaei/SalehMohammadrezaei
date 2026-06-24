@@ -2,8 +2,9 @@
 
 **CFD & numerical-modelling engineer** — multiphase flow, heat & mass transfer, porous-media
 transport, and scientific computing. I build and validate **C++/MPI · CUDA · Python** simulation
-workflows, from pore-scale physics to solvers written from scratch. Finishing a Shell-funded PhD at
-the University of Manchester, with ~7 years across research and industry (Shell, TU Delft).
+workflows, from pore-scale physics to solvers written from scratch. Background in **Mechanical
+Engineering** and an **industry-funded PhD in Chemical Engineering at the University of Manchester**,
+with ~7 years across research and industry (Shell, TU Delft).
 
 > 🟢 **Open to work** — CFD, simulation, HPC and scientific-computing roles, across domains.
 
@@ -24,10 +25,5 @@ lattice-Boltzmann solver for the absolute (Darcy) permeability of pore-scale roc
 of my PhD while I was learning CUDA/GPU computing; validated against Poiseuille (~2.4%) and
 Sangani–Acrivos (~3%), and ~21× faster on the GPU at research scale.
 
-### 📜 Selected publications
-- *Modelling the Drying of CO₂–Water in Porous Media with a Novel VOF Lattice-Boltzmann Model* — **Water Resources Research** (2026) · [doi](https://doi.org/10.1029/2025WR040829)
-- *Exploring carbonate rock dissolution dynamics in CO₂ injection* — **Environmental Science & Technology** (2024) · [doi](https://doi.org/10.1021/acs.est.3c06758)
-- *Surface-topography effects on droplet dynamics via an improved VOF lattice-Boltzmann method* — **Journal of Molecular Liquids** (2022) · [doi](https://doi.org/10.1016/j.molliq.2022.118509)
-
 ### 📫 Reach me
-✉️ saleh.mohammadrezaei@manchester.ac.uk  ·  💼 [LinkedIn](https://www.linkedin.com/in/saleh-mohammadrezaei)
+✉️ salehmrezaee@gmail.com  ·  💼 [LinkedIn](https://www.linkedin.com/in/saleh-mohammadrezaei)
