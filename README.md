@@ -7,8 +7,6 @@ industry-funded PhD in chemical engineering at the University of Manchester.
 Day to day I write **C++, CUDA and Python** for simulation and the analysis around it
 (OpenFOAM, ANSYS Fluent, lattice-Boltzmann, MPI / OpenMP / HPC).
 
-> 🟢 **Open to work** — CFD, simulation and scientific-computing roles, across domains.
-
 ### A couple of things I've built
 - **[PoreWise](https://github.com/SalehMohammadrezaei/PoreWise)** — permeability tensors of
   3D pore images (micro-CT rocks, foams, micromodels) with the lattice Boltzmann method, on
