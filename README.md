@@ -2,7 +2,7 @@
 
 I'm a **mechanical engineer and CFD researcher** working on multiphase flow, porous-media transport, numerical methods, and scientific software.
 
-I'm finishing a **Shell-funded PhD in Chemical Engineering at the University of Manchester** focused on computational fluid dynamics. My work sits at the intersection of **physics, numerical modelling, validation, and software**: building models, testing whether they behave correctly, and turning them into workflows that are useful beyond a single simulation.
+My work sits at the intersection of **physics, numerical modelling, validation, and software**: building models, testing whether they behave correctly, and turning them into workflows that are useful beyond a single simulation.
 
 I work mainly with **C++, Python, OpenFOAM, lattice-Boltzmann methods, HPC, and GPU-enabled computing**, with experience spanning multiphase flow, heat and mass transfer, phase change, turbulence, and image-based porous-media modelling.
 
@@ -20,7 +20,6 @@ An open-source lattice-Boltzmann workflow that converts segmented 2D and 3D pore
 - designed to store pore voxels only, allowing 1024³ sandstone volumes to run on a single workstation GPU
 - validated against analytical solutions and published benchmarks
 
-The project grew from my PhD research. I defined the numerical method, validation strategy, and testing workflow, and later carried out a documented solver audit that identified and corrected a numerical defect before the results were re-validated.
 
 ### [Funoos](https://github.com/SalehMohammadrezaei/Funoos)
 **An interactive environment for exploring CFD and numerical simulation**
