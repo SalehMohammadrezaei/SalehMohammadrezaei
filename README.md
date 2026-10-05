@@ -1,21 +1,56 @@
 # Hi, I'm Saleh 👋
 
-I'm a **CFD engineer** — multiphase flow, porous-media transport, and the numerical
-methods and code behind them. Background in mechanical engineering; currently doing an
-industry-funded PhD in chemical engineering at the University of Manchester.
+I'm a **mechanical engineer and CFD researcher** working on multiphase flow, porous-media transport, numerical methods, and scientific software.
 
-Day to day I write **C++, CUDA and Python** for simulation and the analysis around it
-(OpenFOAM, ANSYS Fluent, lattice-Boltzmann, MPI / OpenMP / HPC).
+I'm finishing a **Shell-funded PhD in Chemical Engineering at the University of Manchester** focused on computational fluid dynamics. My work sits at the intersection of **physics, numerical modelling, validation, and software**: building models, testing whether they behave correctly, and turning them into workflows that are useful beyond a single simulation.
 
-### A couple of things I've built
-- **[PoreWise](https://github.com/SalehMohammadrezaei/PoreWise)** — permeability tensors of
-  3D pore images (micro-CT rocks, foams, micromodels) with the lattice Boltzmann method, on
-  one GPU or on CPU cores. Stores pore voxels only, so a 1024³ sandstone runs on a single
-  workstation GPU. Checked against analytical solutions and published benchmarks. From my
-  PhD work.
-- **[Funoos](https://github.com/SalehMohammadrezaei/Funoos)** — Funoos: an interactive CFD showcase. Six numerical methods written from scratch (LBM, Navier-Stokes, Euler, SPH, spectral, reaction-diffusion) across 28 experiments with 51 presets, each checked against analytical results.
-- **[totem](https://github.com/SalehMohammadrezaei/totem)** — a physically-accurate *Inception* spinning top: real heavy-top dynamics + MuJoCo contact physics, rendered by a fused-CUDA-kernel ray-tracer I wrote (~5,000× faster than the naive version). *Does the totem fall? Physics says yes.*
+I work mainly with **C++, Python, OpenFOAM, lattice-Boltzmann methods, HPC, and GPU-enabled computing**, with experience spanning multiphase flow, heat and mass transfer, phase change, turbulence, and image-based porous-media modelling.
 
+## Selected projects
 
-### Reach me
-✉️ salehmrezaee@gmail.com  ·  💼 [LinkedIn](https://www.linkedin.com/in/saleh-mohammadrezaei)
+### [PoreWise](https://github.com/SalehMohammadrezaei/PoreWise)
+**Image-based permeability modelling on CPU and GPU**
+
+An open-source lattice-Boltzmann workflow that converts segmented 2D and 3D pore geometries into quantitative permeability predictions.
+
+- CPU and GPU execution
+- 3D micro-CT rocks, foams, and micromodel geometries
+- automated numerical tests and validation
+- permeability-tensor workflow
+- designed to store pore voxels only, allowing 1024³ sandstone volumes to run on a single workstation GPU
+- validated against analytical solutions and published benchmarks
+
+The project grew from my PhD research. I defined the numerical method, validation strategy, and testing workflow, and later carried out a documented solver audit that identified and corrected a numerical defect before the results were re-validated.
+
+### [Funoos](https://github.com/SalehMohammadrezaei/Funoos)
+**An interactive environment for exploring CFD and numerical simulation**
+
+Funoos brings together **28 experiments and 51 presets** across six numerical-method families:
+
+`LBM` · `Navier-Stokes` · `Euler` · `SPH` · `Spectral` · `Reaction-Diffusion`
+
+It covers problems including aerodynamics, wakes, convection, free surfaces, shocks, porous flow, vortices, mixing, and pattern formation.
+
+The application includes configurable inputs, quantitative diagnostics, parameter sweeps, run comparison, reproducible presets, automated checks, and documented model limitations.
+
+I defined the physics, numerical-method direction, validation approach, and project structure. Later implementation stages were developed with AI coding agents under my technical direction, with generated changes reviewed, tested, and numerically verified.
+
+### [totem](https://github.com/SalehMohammadrezaei/totem)
+**Does the totem fall? Physics says yes.**
+
+A physics side project inspired by *Inception*, combining **heavy-top rigid-body dynamics**, **MuJoCo contact physics**, and GPU-accelerated rendering to explore what the famous spinning top would actually do under physical dynamics.
+
+I defined the physics and project direction; implementation was predominantly AI-assisted.
+
+## What I care about
+
+- simulations that are **physically credible**, not just numerically converged
+- verification, validation, and solver correctness
+- scientific software that makes numerical methods easier to explore and use
+- HPC and GPU-enabled simulation workflows
+- using AI agents to accelerate engineering work while keeping **physics and validation in the loop**
+
+## Reach me
+
+✉️ **salehmrezaee@gmail.com**  
+💼 [LinkedIn](https://www.linkedin.com/in/saleh-mohammadrezaei)
