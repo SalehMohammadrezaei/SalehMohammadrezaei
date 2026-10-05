@@ -13,7 +13,7 @@ Day to day I write **C++, CUDA and Python** for simulation and the analysis arou
   one GPU or on CPU cores. Stores pore voxels only, so a 1024³ sandstone runs on a single
   workstation GPU. Checked against analytical solutions and published benchmarks. From my
   PhD work.
-  - **[Funoos](https://github.com/SalehMohammadrezaei/Funoos)** — Funoos: an interactive CFD showcase. Six numerical methods written from scratch (LBM, Navier-Stokes, Euler, SPH, spectral, reaction-diffusion) across 28 experiments with 51 presets, each checked against analytical results.
+- **[Funoos](https://github.com/SalehMohammadrezaei/Funoos)** — Funoos: an interactive CFD showcase. Six numerical methods written from scratch (LBM, Navier-Stokes, Euler, SPH, spectral, reaction-diffusion) across 28 experiments with 51 presets, each checked against analytical results.
 - **[totem](https://github.com/SalehMohammadrezaei/totem)** — a physically-accurate *Inception* spinning top: real heavy-top dynamics + MuJoCo contact physics, rendered by a fused-CUDA-kernel ray-tracer I wrote (~5,000× faster than the naive version). *Does the totem fall? Physics says yes.*
 
 
